@@ -1,0 +1,9 @@
+appId: uk.co.atomicmedia.maestrotest
+---
+- scrollUntilVisible:
+    element:
+      id: "Item 2"
+    visibilityPercentage: 100
+
+- assertVisible:
+    text: "Item bottom text 2"
